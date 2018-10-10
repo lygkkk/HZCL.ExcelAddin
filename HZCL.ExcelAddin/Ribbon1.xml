@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="hzclwithin" label="春蓝内部插件">
+        <group id="Finance" label="财务部">
+          <button id ="btn_DataEntry" label="数据录入" onAction="btn_DataEntry" imageMso="A" size="large"/>
+          <button id="btn_rkbcb" label="入库备查表" onAction="btn_rkbcb" imageMso="B" size="large"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
